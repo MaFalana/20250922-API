@@ -1,0 +1,28 @@
+# Ignore git metadata
+.git
+.gitignore
+
+# Byte-compiled / cache files
+__pycache__/
+
+# Virtual Environments
+.venv/
+api/.venv/
+
+# Environment Files
+.env
+api/.env
+
+# Test Files and Directories
+source/
+api/tests/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dockerfile context exclusions
+docker-compose.yml
+Dockerfile*

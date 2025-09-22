@@ -1,0 +1,41 @@
+INFO:     Will watch for changes in these directories: ['/Users/malik/Documents/PROJECTS/Photo-Log-Map/20250920/backend/api']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [58645] using StatReload
+INFO:     Started server process [58720]
+INFO:     Waiting for application startup.
+2025-09-22 10:00:09,538 - INFO - Starting photo processing pipeline...
+2025-09-22 10:00:09,539 - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-09-22 10:00:10,905 - INFO - Database indexes created successfully
+2025-09-22 10:00:10,907 - INFO - Request URL: 'https://mysideprojects.blob.core.windows.net/photo-log-map?restype=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.26.0 Python/3.12.7 (macOS-10.16-x86_64-i386-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '7448f62e-97bc-11f0-b223-acde48001122'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-09-22 10:00:11,487 - INFO - Response status: 200
+Response headers:
+    'Content-Length': '0'
+    'Last-Modified': 'Sat, 20 Sep 2025 19:18:33 GMT'
+    'ETag': '"0x8DDF87A7DFCB8CF"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'eb694d46-d01e-001f-6dc9-2be6f9000000'
+    'x-ms-client-request-id': '7448f62e-97bc-11f0-b223-acde48001122'
+    'x-ms-version': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-has-immutability-policy': 'REDACTED'
+    'x-ms-has-legal-hold': 'REDACTED'
+    'x-ms-immutable-storage-with-versioning-enabled': 'REDACTED'
+    'x-ms-default-encryption-scope': 'REDACTED'
+    'x-ms-deny-encryption-scope-override': 'REDACTED'
+    'Date': 'Mon, 22 Sep 2025 14:00:11 GMT'
+2025-09-22 10:00:11,488 - INFO - Container 'photo-log-map' exists
+2025-09-22 10:00:11,489 - INFO - Registered photo processor: default
+2025-09-22 10:00:11,489 - INFO - Photo processing pipeline started successfully
+2025-09-22 10:00:11,489 - INFO - Started processor: default
+INFO:     Application startup complete.
+2025-09-22 10:00:11,490 - INFO - Starting photo processing pipeline

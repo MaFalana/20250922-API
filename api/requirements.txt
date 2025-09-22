@@ -1,0 +1,13 @@
+azure-storage-blob
+azure-data-tables
+pymongo
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+pillow
+pillow-heif
+exifread
+lxml
+pyproj
+requests
