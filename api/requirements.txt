@@ -2,7 +2,7 @@ azure-storage-blob
 azure-data-tables
 pymongo
 fastapi
-uvicorn
+uvicorn[standard]
 python-dotenv
 python-multipart
 pillow
