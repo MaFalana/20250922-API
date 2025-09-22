@@ -12,3 +12,9 @@ api/.env
 # Test Files and Directories
 source/
 api/tests/
+
+# Vercel
+.vercel
+
+# Azure
+.azure/

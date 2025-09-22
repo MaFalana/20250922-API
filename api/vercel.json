@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/main.py"
+    }
+  ],
+  "functions": {
+    "api/main.py": {
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "MONGO_CONNECTION_STRING": "@mongo_connection_string",
+    "MONGO_DATABASE_NAME": "@mongo_database_name",
+    "AZURE_STORAGE_CONNECTION_STRING": "@azure_storage_connection_string",
+    "AZURE_STORAGE_CONTAINER": "@azure_storage_container",
+    "MAP_TILER_KEY": "@map_tiler_key",
+    "API_VERSION": "@api_version"
+  }
+}
